@@ -12,7 +12,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 public class MainMenuActivity extends AppCompatActivity {
-
+    private TextView text = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
